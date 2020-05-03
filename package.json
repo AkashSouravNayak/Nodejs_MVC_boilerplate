@@ -1,0 +1,27 @@
+{
+  "name": "Nodejs-Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app/bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app/bin/www"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cls-hooked": "^4.2.2",
+    "cls-rtracer": "^1.4.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "http-status-codes": "^1.4.0",
+    "joi": "^14.3.1",
+    "winston": "^3.2.1"
+  }
+}
